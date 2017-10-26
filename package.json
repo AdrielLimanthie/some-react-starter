@@ -1,7 +1,8 @@
 {
   "name": "some-react-starter",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "private": false,
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
@@ -46,6 +47,16 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrielLimanthie/some-react-starter.git"
+  },
+  "author": "Adriel Limanthie <a.limanthie@gmail.com> (https://github.com/adriellimanthie)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrielLimanthie/some-react-starter/issues"
+  },
+  "homepage": "https://github.com/AdrielLimanthie/some-react-starter#readme",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
